@@ -1,0 +1,16 @@
+{
+  "name": "form-generator",
+  "description": "Необходимо реализовать приложение, которое будет генерировать формы на основе предоставленные `json файлов`",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./css/tailwind/index.css -o css/tailwind/style.css --watch"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}

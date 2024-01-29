@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-main {
+        @apply border border-color-555 rounded-sm outline-none w-96 py-2 pl-2;
+    }
+}
+
+.border-color-333 {
+    border-color: #333;
+}
+
+.bg-color-333 {
+    background-color: #333;
+}
+
+.border-color-555 {
+    border-color: #555;
+}

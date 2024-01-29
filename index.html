@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-200">
+
+    <div>
+        <div class="flex justify-center items-center bg-white rounded w-1/4 py-6 my-7 mx-auto" id="selectForm">
+            <label class="mr-3 text-xl" for="jsonDropdown">Выберите форму:</label>
+            <select class="border-2 border-color-333 rounded outline-none py-0.5 px-3" id="jsonDropdown" onchange="printFieldsForm()">
+                <option value="">---</option>
+                <option value="form-test-1">Форма 1</option>
+                <option value="form-test-2">Форма 2</option>
+                <option value="form-test-3">Форма 3</option>
+            </select>
+        </div>
+    </div>
+
+</body>
+
+<script>let exports = {};</script>
+<script src="ts/main.js"></script>
+</html>
